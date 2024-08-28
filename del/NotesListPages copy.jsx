@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { apiConfig } from '../apiconfig'
-import { ListItem } from './ListItem'
+import { apiConfig } from '../src/apiconfig'
+import { ListItem } from '../src/pages/ListItem'
 
 export const NotesListPages = () => {
 

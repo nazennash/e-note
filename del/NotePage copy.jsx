@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { apiConfig } from '../apiconfig'
+import { apiConfig } from '../src/apiconfig'
 
 export const NotePage = () => {
     const { noteId } = useParams()
